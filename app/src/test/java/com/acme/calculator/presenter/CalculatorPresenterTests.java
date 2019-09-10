@@ -1,7 +1,7 @@
-package com.acme.tictactoe.presenter;
+package com.acme.calculator.presenter;
 
 
-import com.acme.tictactoe.view.TicTacToeView;
+import com.acme.calculator.view.CalculatorView;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -17,16 +17,16 @@ import static org.mockito.Mockito.verify;
  * There are a lot more tests we can and should write but for now, just a few smoke tests.
  */
 @RunWith(MockitoJUnitRunner.class)
-public class TicTacToePresenterTests {
+public class CalculatorPresenterTests {
 
-    private TicTacToePresenter presenter;
+    private CalculatorPresenter presenter;
 
     @Mock
-    private TicTacToeView view;
+    private CalculatorView view;
 
     @Before
     public void setup() {
-        presenter = new TicTacToePresenter(view);
+        presenter = new CalculatorPresenter(view);
     }
 
     private void clickAndAssertValueAt(int row, int col, String expectedValue) {

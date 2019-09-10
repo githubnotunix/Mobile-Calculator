@@ -1,4 +1,4 @@
-package com.acme.tictactoe.view;
+package com.acme.calculator.view;
 
 public interface TicTacToeView {
     void showWinner(String winningPlayerDisplayLabel);

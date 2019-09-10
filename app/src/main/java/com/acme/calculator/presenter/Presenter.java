@@ -1,4 +1,4 @@
-package com.acme.tictactoe.presenter;
+package com.acme.calculator.presenter;
 
 
 public interface Presenter {

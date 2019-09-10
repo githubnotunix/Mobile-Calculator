@@ -1,7 +1,7 @@
-package com.acme.tictactoe.model;
+package com.acme.calculator.model;
 
-import static com.acme.tictactoe.model.Player.O;
-import static com.acme.tictactoe.model.Player.X;
+import static com.acme.calculator.model.Player.O;
+import static com.acme.calculator.model.Player.X;
 
 public class Board {
 

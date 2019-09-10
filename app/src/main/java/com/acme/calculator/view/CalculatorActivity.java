@@ -1,4 +1,4 @@
-package com.acme.tictactoe.view;
+package com.acme.calculator.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,8 +11,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.acme.tictactoe.R;
-import com.acme.tictactoe.presenter.TicTacToePresenter;
+import com.acme.calculator.R;
+import com.acme.calculator.presenter.CalculatorPresenter;
 
 public class TicTacToeActivity extends AppCompatActivity implements TicTacToeView {
 
@@ -61,9 +61,9 @@ public class TicTacToeActivity extends AppCompatActivity implements TicTacToeVie
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.action_reset:
+            /*case R.id.action_reset:
                 presenter.onResetSelected();
-                return true;
+                return true;*/
             default:
                 return super.onOptionsItemSelected(item);
         }

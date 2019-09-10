@@ -1,4 +1,4 @@
-package com.acme.tictactoe.model;
+package com.acme.calculator.model;
 
 /**
  * Created by ericmaxwell on 1/19/17.

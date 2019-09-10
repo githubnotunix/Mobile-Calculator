@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tictactoe"
+    android:id="@+id/calculator"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center_horizontal"
-    tools:context="com.acme.tictactoe.view.TicTacToeActivity">
+    tools:context="com.acme.calculator.view.CalculatorActivity">
 
     <GridLayout
         android:id="@+id/buttonGrid"
@@ -22,55 +22,55 @@
         <Button
             android:tag="00"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
         <Button
             android:tag="01"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
         <Button
             android:tag="02"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
         <Button
             android:tag="10"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
         <Button
             android:tag="11"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
         <Button
             android:tag="12"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
         <Button
             android:tag="20"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
         <Button
             android:tag="21"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
         <Button
             android:tag="22"
             android:onClick="onCellClicked"
-            style="@style/tictactoebutton"
+            style="@style/calculatorbutton"
             />
 
     </GridLayout>

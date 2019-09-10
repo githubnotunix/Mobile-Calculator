@@ -1,8 +1,8 @@
-package com.acme.tictactoe.presenter;
+package com.acme.calculator.presenter;
 
-import com.acme.tictactoe.model.Board;
-import com.acme.tictactoe.model.Player;
-import com.acme.tictactoe.view.TicTacToeView;
+import com.acme.calculator.model.Board;
+import com.acme.calculator.model.Player;
+import com.acme.calculator.view.TicTacToeView;
 
 public class TicTacToePresenter implements Presenter {
 

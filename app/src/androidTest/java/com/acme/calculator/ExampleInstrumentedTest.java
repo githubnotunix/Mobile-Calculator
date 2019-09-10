@@ -1,4 +1,4 @@
-package com.acme.tictactoe;
+package com.acme.calculator;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.acme.tictactoe.model;
+package com.acme.calculator.model;
 
 import org.junit.Before;
 import org.junit.Test;
