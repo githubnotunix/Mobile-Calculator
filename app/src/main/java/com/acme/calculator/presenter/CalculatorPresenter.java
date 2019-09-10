@@ -2,14 +2,14 @@ package com.acme.calculator.presenter;
 
 import com.acme.calculator.model.Board;
 import com.acme.calculator.model.Player;
-import com.acme.calculator.view.TicTacToeView;
+import com.acme.calculator.view.CalculatorView;
 
-public class TicTacToePresenter implements Presenter {
+public class CalculatorPresenter implements Presenter {
 
-    private TicTacToeView view;
+    private CalculatorView view;
     private Board model;
 
-    public TicTacToePresenter(TicTacToeView view) {
+    public CalculatorPresenter(CalculatorView view) {
         this.view = view;
         this.model = new Board();
     }

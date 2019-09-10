@@ -1,6 +1,6 @@
 package com.acme.calculator.view;
 
-public interface TicTacToeView {
+public interface CalculatorView {
     void showWinner(String winningPlayerDisplayLabel);
     void clearWinnerDisplay();
     void clearButtons();

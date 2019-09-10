@@ -14,20 +14,20 @@ import android.widget.TextView;
 import com.acme.calculator.R;
 import com.acme.calculator.presenter.CalculatorPresenter;
 
-public class TicTacToeActivity extends AppCompatActivity implements TicTacToeView {
+public class CalculatorActivity extends AppCompatActivity implements CalculatorView {
 
-    private static String TAG = TicTacToeActivity.class.getName();
+    private static String TAG = CalculatorActivity.class.getName();
 
     private ViewGroup buttonGrid;
     private View winnerPlayerViewGroup;
     private TextView winnerPlayerLabel;
 
-    TicTacToePresenter presenter = new TicTacToePresenter(this);
+    CalculatorPresenter presenter = new CalculatorPresenter(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tictactoe);
+        setContentView(R.layout.calculator);
         winnerPlayerLabel = (TextView) findViewById(R.id.winnerPlayerLabel);
         winnerPlayerViewGroup = findViewById(R.id.winnerPlayerViewGroup);
         buttonGrid = (ViewGroup) findViewById(R.id.buttonGrid);
@@ -55,7 +55,7 @@ public class TicTacToeActivity extends AppCompatActivity implements TicTacToeVie
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_tictactoe, menu);
+        inflater.inflate(R.menu.menu_calculator, menu);
         return true;
     }
     @Override
