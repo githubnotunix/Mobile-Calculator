@@ -1,5 +1,23 @@
 <resources>
     <string name="app_name">Calculator</string>
     <string name="winner">Winner</string>
+    <string name="clear">C</string>
+    <string name="lessthan"></string>
+    <string name="divide">/</string>
+    <string name="seven">C</string>
+    <string name="eight">C</string>
+    <string name="nine">C</string>
+    <string name="multiply">C</string>
+    <string name="four">C</string>
+    <string name="five">C</string>
+    <string name="six">C</string>
+    <string name="minus">C</string>
+    <string name="one">C</string>
+    <string name="two">C</string>
+    <string name="three">C</string>
+    <string name="plus">C</string>
+    <string name="zero">C</string>
+    <string name="decimal">C</string>
+    <string name="equal">C</string>
     <!--<string name="action_reset">Reset</string>-->
 </resources>
